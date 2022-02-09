@@ -1,0 +1,7 @@
+{
+  "name": "sample-apple-watch-connect",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
