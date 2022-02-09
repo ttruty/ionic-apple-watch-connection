@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19529" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19514"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watch_sample" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Data Recieved" textAlignment="center" id="fcL-3s-mJh"/>
+                        <button width="1" alignment="left" title="Send Data" id="cuU-9g-qCQ">
+                            <connections>
+                                <action selector="sendData" destination="AgC-eL-Hgc" id="T59-XU-imz"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="dataRecievedLabel" destination="fcL-3s-mJh" id="wP9-9c-4My"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-6"/>
+        </scene>
+    </scenes>
+</document>

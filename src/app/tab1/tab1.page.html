@@ -13,5 +13,16 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  <ion-button (click)="onSendData()" expand="block" shape="round">
+    Send Data
+  </ion-button>
+  <ion-label>
+    Data Recieved from watch:
+  </ion-label>
+
+  <ion-label>
+    {{dataString}}
+  </ion-label>
+
 </ion-content>

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "sample-apple-watch-connect",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
